@@ -524,13 +524,6 @@ footer {
   margin-bottom: 4rem;
 }
 
-.title-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
 /* Icon Styles - Note we already have .home-link styles */
 .changelog-icon {
   width: 48px;
@@ -538,17 +531,13 @@ footer {
 }
 
 /* Title Styles */
-.title-group h1,
+.home-title,
 .changelog-title {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: var(--primary-color);
-  margin: 0;
-}
-
-.changelog-title {
-  margin: 0 0 3rem;
   font-weight: normal;
+  color: var(--primary-color);
+  margin: 0 0 3rem;
   max-width: 800px;
   padding: 0 1rem;
 }
