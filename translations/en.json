@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Cigarrynos",
+    "description": "Your Ultimate Cigar Companion App"
+  },
+  "ageVerification": {
+    "title": "Age Verification",
+    "message": "You must be 18 years or older to enter this site.",
+    "confirmButton": "I am 18 or older",
+    "rejectButton": "I am under 18"
+  },
+  "header": {
+    "tagline": "Your Ultimate Cigar Companion App",
+    "description": "Experience the finest selection of cigars with our comprehensive companion app. Track, rate, and discover your perfect smoke."
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need to enhance your cigar experience in one elegant app",
+    "items": [
+      {
+        "title": "Comprehensive Database",
+        "description": "Browse through thousands of cigars with detailed information about origin, blend, and characteristics."
+      },
+      {
+        "title": "Personal Collections",
+        "description": "Organize and track your cigar collection with ease. Keep inventory and manage your humidor digitally."
+      },
+      {
+        "title": "Tasting Notes",
+        "description": "Record detailed tasting experiences, rate your cigars, and build your personal flavor profile."
+      },
+      {
+        "title": "Offline Access",
+        "description": "Access your entire collection and notes anytime, anywhere - no internet connection required."
+      },
+      {
+        "title": "Real-time Updates",
+        "description": "Stay current with the latest additions to our database and community reviews."
+      }
+    ]
+  },
+  "discover": {
+    "title": "Discover the App",
+    "subtitle": "Take a visual tour of Cigarrynos' elegant interface"
+  },
+  "download": {
+    "title": "Get Started Today",
+    "subtitle": "Available on iOS and Android platforms"
+  },
+  "footer": {
+    "createdBy": "Made by",
+    "copyright": "Copyright 2024,",
+    "whatsNew": "What's New",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
+  }
+}

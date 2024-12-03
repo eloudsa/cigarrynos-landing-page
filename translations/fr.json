@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Cigarrynos",
+    "description": "Votre application compagnon ultime pour les cigares"
+  },
+  "ageVerification": {
+    "title": "Vérification de l'âge",
+    "message": "Vous devez avoir 18 ans ou plus pour accéder à ce site.",
+    "confirmButton": "J'ai 18 ans ou plus",
+    "rejectButton": "J'ai moins de 18 ans"
+  },
+  "header": {
+    "tagline": "Votre application compagnon ultime pour les cigares",
+    "description": "Découvrez une sélection exceptionnelle de cigares avec notre application complète. Suivez, évaluez et trouvez votre cigare parfait."
+  },
+  "features": {
+    "title": "Fonctionnalités",
+    "subtitle": "Tout ce dont vous avez besoin pour améliorer votre expérience du cigare dans une application élégante",
+    "items": [
+      {
+        "title": "Base de données complète",
+        "description": "Parcourez des milliers de cigares avec des informations détaillées sur l'origine, le mélange et les caractéristiques."
+      },
+      {
+        "title": "Collections personnelles",
+        "description": "Organisez et suivez votre collection de cigares facilement. Gérez votre cave à cigares numériquement."
+      },
+      {
+        "title": "Notes de dégustation",
+        "description": "Enregistrez des expériences de dégustation détaillées, évaluez vos cigares et créez votre profil de saveurs personnel."
+      },
+      {
+        "title": "Accès hors ligne",
+        "description": "Accédez à toute votre collection et vos notes à tout moment, n'importe où - sans connexion Internet requise."
+      },
+      {
+        "title": "Mises à jour en temps réel",
+        "description": "Restez à jour avec les derniers ajouts à notre base de données et les avis de la communauté."
+      }
+    ]
+  },
+  "discover": {
+    "title": "Découvrez l'application",
+    "subtitle": "Faites une visite visuelle de l'interface élégante de Cigarrynos"
+  },
+  "download": {
+    "title": "Commencez aujourd'hui",
+    "subtitle": "Disponible sur iOS et Android"
+  },
+  "footer": {
+    "createdBy": "Créé par",
+    "copyright": "Copyright 2024,",
+    "whatsNew": "Nouveautés",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfUse": "Conditions d'utilisation"
+  }
+}
