@@ -156,8 +156,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if (btnNo) {
     btnNo.addEventListener("click", () => {
-      alert(translations[currentLanguage].ageVerification.rejectMessage);
-      window.location.href = "https://google.com";
+      window.location.href = "restriction.html"; // Assuming you save the above HTML as underage.html
     });
   }
 
