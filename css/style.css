@@ -25,8 +25,7 @@ body {
 header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 2rem;
-  padding-bottom: 4rem;
+  padding: 2rem 2rem 4rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: relative;
   border-radius: 0 0 2rem 2rem;
@@ -56,7 +55,7 @@ header {
   font-size: 3.5rem;
   margin: 0;
   color: var(--secondary-color);
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), system-ui, serif;
   font-weight: 700;
   line-height: 1;
 }
@@ -112,7 +111,7 @@ header {
 }
 
 .home-title {
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), system-ui, serif;
   font-size: 2.5rem;
   color: var(--primary-color);
   margin: 0 0 2rem;
@@ -366,7 +365,7 @@ footer {
 /* Add specific styles for the dynamically loaded markdown content */
 #content-area h1,
 #content-area h2 {
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), system-ui, serif;
   color: var(--primary-color);
   margin-top: 2rem;
   border-bottom: 2px solid var(--secondary-color);
@@ -452,7 +451,7 @@ footer {
 }
 
 .changelog-title {
-  font-family: var(--font-primary);
+  font-family: var(--font-primary), system-ui, serif;
   font-size: 2.5rem;
   color: var(--primary-color);
   margin: 0 0 3rem;
@@ -515,5 +514,96 @@ footer {
 
   .version li {
     font-size: 1rem;
+  }
+}
+
+/* Restriction Page Specific Styles */
+.restriction-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-off);
+}
+
+.restriction-page header {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.restriction-page .header-content {
+  padding: 1rem;
+  max-width: 800px;
+}
+
+.restriction-page .brand {
+  margin-bottom: 0;
+}
+
+.restriction-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.restriction-content {
+  max-width: 600px;
+  width: 90%;
+  padding: 3rem;
+  background: var(--background-light);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.restriction-content h2 {
+  font-family: var(--font-primary), system-ui, serif;
+  color: var(--primary-color);
+  font-size: 2.2rem;
+  margin: 0 0 1.5rem;
+}
+
+.restriction-content p {
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+  font-size: 1.1rem;
+}
+
+.restriction-content .btn {
+  min-width: 200px;
+}
+
+.restriction-page footer {
+  background-color: transparent;
+  padding: 2rem;
+}
+
+/* Responsive adjustments for restriction page */
+@media (max-width: 768px) {
+  .restriction-content {
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  .restriction-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .restriction-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .restriction-content {
+    padding: 1.5rem;
+  }
+
+  .restriction-content .btn {
+    width: 100%;
   }
 }
