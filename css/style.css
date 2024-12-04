@@ -1,96 +1,27 @@
-/* Base Styles */
+/* Base Variables */
 :root {
-  --primary-color: #6b3b2a; /* Lighter brown */
-  --primary-dark: #4c241d; /* Keep original dark brown for other elements */
+  --primary-color: #6b3b2a;
+  --primary-dark: #4c241d;
   --secondary-color: #ffcc99;
   --text-color: #2a1a16;
   --light-text: #f4e3d7;
   --background-light: #fff;
   --background-off: #f8f8f8;
+  --font-primary: 'Playfair Display', serif, system-ui;
   --spacing-unit: 1rem;
 }
 
+/* Base Styles */
 body {
   margin: 0;
   padding: 0;
   background-color: var(--background-light);
   color: var(--text-color);
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Source Sans 3', sans-serif, system-ui;
   line-height: 1.6;
 }
 
-/* Language Selector */
-.language-links {
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.language-links a {
-  text-decoration: none;
-  color: var(--text-color);
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  margin: 0 0.5rem;
-  transition: color 0.3s ease;
-}
-
-.language-links a.active {
-  font-weight: 600;
-  border-bottom: 2px solid var(--primary-color);
-}
-
-.language-links span {
-  color: #999;
-}
-
-.language-links a:hover {
-  color: var(--primary-color);
-}
-
-/* Update the existing .home-link styles */
-.home-link {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  position: relative; /* Added for pseudo-element positioning */
-  transition: transform 0.3s ease;
-}
-
-/* Add pulsing effect on hover */
-.home-link:hover {
-  transform: scale(1.05);
-}
-
-/* Add subtle glow effect */
-.home-link::after {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border-radius: 50%;
-  background: rgba(255, 204, 153, 0.2); /* Using your secondary color */
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.home-link:hover::after {
-  opacity: 1;
-}
-
-/* Optional: Add a gentle rotation */
-.home-link img {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.3s ease;
-}
-
-.home-link:hover img {
-  transform: rotate(5deg);
-}
-
-/* Header Section */
+/* Header Styles */
 header {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -99,19 +30,6 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: relative;
   border-radius: 0 0 2rem 2rem;
-}
-
-/* Optional subtle gradient overlay */
-header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50%;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.08));
-  border-radius: 0 0 2rem 2rem;
-  pointer-events: none;
 }
 
 .header-content {
@@ -138,10 +56,9 @@ header::after {
   font-size: 3.5rem;
   margin: 0;
   color: var(--secondary-color);
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-primary);
   font-weight: 700;
   line-height: 1;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #tagline {
@@ -156,7 +73,30 @@ header::after {
   font-size: 1.4rem;
   color: var(--light-text);
   opacity: 0.95;
-  line-height: 1.5;
+}
+
+/* Language Selector */
+.language-links {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.language-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.language-links a.active {
+  font-weight: 600;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.language-links span {
+  color: #999;
 }
 
 /* Features Section */
@@ -169,6 +109,14 @@ header::after {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.home-title {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin: 0 0 2rem;
+  text-align: center;
 }
 
 .section-description {
@@ -185,6 +133,7 @@ header::after {
   gap: 2rem;
   padding: 0;
   list-style: none;
+  margin: 0;
 }
 
 .features li {
@@ -197,7 +146,7 @@ header::after {
 
 .features li h3 {
   color: var(--primary-color);
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -256,8 +205,6 @@ footer {
   background-color: transparent;
   color: var(--text-color);
   padding: 4rem 1rem;
-  position: static;
-  width: 100%;
   margin-top: auto;
 }
 
@@ -274,7 +221,6 @@ footer {
 .footer-creator {
   color: var(--text-color);
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
 }
 
 .footer-creator a {
@@ -320,20 +266,7 @@ footer {
   transition: color 0.3s ease;
 }
 
-/* Hover states */
-.footer-creator a:hover {
-  text-decoration: underline;
-}
-
-.social-links a:hover {
-  background-color: #e5e7eb;
-}
-
-.footer-nav a:hover {
-  color: #1f2937;
-}
-
-/* Age Verification Modal */
+/* Modal Styles */
 .modal {
   position: fixed;
   top: 0;
@@ -367,84 +300,14 @@ footer {
 
 .modal-content h2 {
   color: var(--secondary-color);
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
   font-size: 2rem;
 }
 
 .modal-content p {
   color: var(--light-text);
-  margin-bottom: 2rem;
+  margin: 0 0 2rem;
   font-size: 1.2rem;
-}
-
-.modal .btn {
-  padding: 0.75rem 1.5rem;
-  font-size: 1.1rem;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
-  border-radius: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin: 0.5rem;
-}
-
-.modal .btn:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-}
-
-.modal .btn-secondary {
-  background-color: transparent;
-}
-
-/* Legal Pages Styles */
-.legal-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: var(--background-light);
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-#content-area {
-  color: var(--text-color);
-  line-height: 1.8;
-  font-size: 1.1rem;
-}
-
-#content-area h1,
-#content-area h2 {
-  font-family: 'Playfair Display', serif;
-  color: var(--primary-color);
-  margin-top: 2rem;
-  border-bottom: 2px solid var(--secondary-color);
-  padding-bottom: 0.5rem;
-}
-
-#content-area h1 { font-size: 2.2rem; }
-#content-area h2 { font-size: 1.8rem; }
-#content-area p { margin-bottom: 1.5rem; }
-
-#content-area ul,
-#content-area ol {
-  margin: 1rem 0;
-  padding-left: 2rem;
-}
-
-#content-area li { margin-bottom: 0.5rem; }
-
-#content-area a {
-  color: var(--primary-color);
-  text-decoration: none;
-  border-bottom: 1px solid var(--secondary-color);
-  transition: all 0.3s ease;
-}
-
-#content-area a:hover {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
 }
 
 /* Responsive Design */
@@ -455,11 +318,6 @@ footer {
 
   .brand h1 {
     font-size: 2.8rem;
-  }
-
-  .app-icon {
-    width: 48px;
-    height: 48px;
   }
 
   #tagline {
@@ -479,25 +337,12 @@ footer {
     align-items: center;
   }
 
-  .store-buttons img {
-    width: 160px;
-    height: 53px;
-  }
-
   .footer-content {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .legal-container {
-    margin: 1rem;
     padding: 1rem;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 480px) {
   .footer-nav {
     flex-direction: column;
     gap: 1rem;
@@ -508,55 +353,126 @@ footer {
   }
 }
 
-
-/* Changelog & Legal Pages Container Styles */
-.changelog-container {
+/* Legal Pages Styles */
+.legal-container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
   background: var(--background-light);
-  margin-bottom: 6rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Header Styles */
-.changelog-header {
-  text-align: center;
-  margin-bottom: 4rem;
+/* Add specific styles for the dynamically loaded markdown content */
+#content-area h1,
+#content-area h2 {
+  font-family: var(--font-primary);
+  color: var(--primary-color);
+  margin-top: 2rem;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
 }
 
-/* Icon Styles - Note we already have .home-link styles */
-.changelog-icon {
-  width: 48px;
-  height: 48px;
+#content-area h1 {
+  font-size: 2.2rem;
 }
 
-/* Title Styles */
-.home-title,
+#content-area h2 {
+  font-size: 1.8rem;
+}
+
+#content-area p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+#content-area ul,
+#content-area ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+#content-area li {
+  margin-bottom: 0.5rem;
+}
+
+#content-area a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+#content-area a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+/* Home Link Styles */
+.home-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.home-link:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Adjustments for Legal Pages */
+@media (max-width: 768px) {
+  .legal-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  #content-area h1 {
+    font-size: 1.8rem;
+  }
+
+  #content-area h2 {
+    font-size: 1.5rem;
+  }
+
+  #content-area p {
+    font-size: 1rem;
+  }
+}
+
+/* Changelog Specific Styles */
+.changelog-container {
+  max-width: 800px;
+  margin: 2rem auto 6rem;
+  padding: 2rem;
+  background: var(--background-light);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
 .changelog-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-primary);
   font-size: 2.5rem;
-  font-weight: normal;
   color: var(--primary-color);
   margin: 0 0 3rem;
-  max-width: 800px;
-  padding: 0 1rem;
+  text-align: center;
 }
 
-/* Changelog Content Styles */
 .changelog-content {
   padding: 1rem 0;
 }
 
 .version {
-  margin-bottom: 2.5rem;
+  margin: 0 0 2.5rem;
 }
 
 .version h3 {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'Source Sans 3', sans-serif, system-ui;
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--primary-color);
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 
 .version ul {
@@ -568,7 +484,7 @@ footer {
 .version li {
   position: relative;
   padding-left: 1.5rem;
-  margin-bottom: 0.75rem;
+  margin: 0 0 0.75rem;
   line-height: 1.6;
   color: var(--text-color);
   font-size: 1.125rem;
@@ -579,4 +495,25 @@ footer {
   position: absolute;
   left: 0;
   color: var(--primary-color);
+}
+
+/* Responsive adjustments for changelog */
+@media (max-width: 768px) {
+  .changelog-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .changelog-title {
+    font-size: 2rem;
+    margin: 0 0 2rem;
+  }
+
+  .version h3 {
+    font-size: 1.3rem;
+  }
+
+  .version li {
+    font-size: 1rem;
+  }
 }
