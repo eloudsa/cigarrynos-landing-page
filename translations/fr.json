@@ -53,5 +53,27 @@
     "whatsNew": "Nouveautés",
     "privacyPolicy": "Politique de confidentialité",
     "termsOfUse": "Conditions d'utilisation"
+  },
+  "restriction": {
+    "pageTitle": "Avis de Restriction d'Âge",
+    "mainDescription": "L'accès à ce site web et à l'application est réservé aux personnes ayant l'âge légal pour acheter et consommer des produits du tabac dans leur juridiction de résidence.",
+    "importantInfo": {
+      "title": "Informations Importantes",
+      "items": [
+        "Vous devez avoir au moins 18 ans pour accéder à ce site web et utiliser l'application Cigarrynos.",
+        "En accédant à ce site web ou en utilisant l'application, vous confirmez que vous avez l'âge légal dans votre juridiction.",
+        "Nous maintenons des procédures strictes de vérification de l'âge pour assurer la conformité aux lois et réglementations applicables."
+      ]
+    },
+    "legalRequirements": {
+      "title": "Exigences Légales",
+      "intro": "Conformément aux réglementations internationales et aux lois locales régissant les produits et services liés au tabac :",
+      "items": [
+        "La vérification de l'âge est obligatoire pour tous les utilisateurs.",
+        "Les fausses déclarations concernant l'âge peuvent entraîner la résiliation du compte.",
+        "Les utilisateurs doivent se conformer à toutes les lois et réglementations locales applicables concernant les produits du tabac."
+      ]
+    },
+    "warning": "Si vous n'avez pas l'âge légal, veuillez quitter ce site web immédiatement."
   }
 }

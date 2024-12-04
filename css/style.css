@@ -550,27 +550,60 @@ footer {
 }
 
 .restriction-content {
-  max-width: 600px;
+  max-width: 800px; /* Increased from 600px for better readability */
   width: 90%;
   padding: 3rem;
   background: var(--background-light);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Changed from center to left for better readability */
+}
+.restriction-content h1 {
+  font-family: var(--font-primary), system-ui, serif;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem;
   text-align: center;
 }
 
 .restriction-content h2 {
   font-family: var(--font-primary), system-ui, serif;
-  color: var(--primary-color);
-  font-size: 2.2rem;
-  margin: 0 0 1.5rem;
+  color: var(--primary-dark);
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
 }
 
 .restriction-content p {
   color: var(--text-color);
-  line-height: 1.6;
+  line-height: 1.8;
   margin: 0 0 1.5rem;
   font-size: 1.1rem;
+  text-align: center;
+}
+
+.restriction-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.restriction-content ul li {
+  position: relative;
+  padding: 0.75rem 0;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.restriction-content .warning {
+  color: var(--primary-dark);
+  font-weight: 600;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .restriction-content .btn {
@@ -589,11 +622,16 @@ footer {
     margin: 1rem;
   }
 
-  .restriction-content h2 {
-    font-size: 1.8rem;
+  .restriction-content h1 {
+    font-size: 2rem;
   }
 
-  .restriction-content p {
+  .restriction-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .restriction-content p,
+  .restriction-content ul li {
     font-size: 1rem;
   }
 }

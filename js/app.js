@@ -85,6 +85,46 @@ document.addEventListener("DOMContentLoaded", async () => {
       screenshotsDesc.textContent = t.discover.subtitle;
     }
 
+    // Restriction page content
+    const restrictionContent = document.querySelector('.restriction-content');
+    if (restrictionContent) {
+      // Update main content
+      const pageTitle = restrictionContent.querySelector('h1');
+      const mainDesc = restrictionContent.querySelector('p');
+      if (pageTitle && mainDesc) {
+        pageTitle.textContent = t.restriction.pageTitle;
+        mainDesc.textContent = t.restriction.mainDescription;
+      }
+
+      // Update Important Info section
+      const importantInfoTitle = restrictionContent.querySelector('h2');
+      const importantInfoList = document.getElementById('important-info-list');
+      if (importantInfoTitle && importantInfoList) {
+        importantInfoTitle.textContent = t.restriction.importantInfo.title;
+        importantInfoList.innerHTML = t.restriction.importantInfo.items
+          .map(item => `<li>${item}</li>`)
+          .join('');
+      }
+
+      // Update Legal Requirements section
+      const legalTitle = restrictionContent.querySelectorAll('h2')[1];
+      const legalIntro = restrictionContent.querySelectorAll('p')[1];
+      const legalList = document.getElementById('legal-requirements-list');
+      if (legalTitle && legalIntro && legalList) {
+        legalTitle.textContent = t.restriction.legalRequirements.title;
+        legalIntro.textContent = t.restriction.legalRequirements.intro;
+        legalList.innerHTML = t.restriction.legalRequirements.items
+          .map(item => `<li>${item}</li>`)
+          .join('');
+      }
+
+      // Update warning message
+      const warning = restrictionContent.querySelector('.warning');
+      if (warning) {
+        warning.textContent = t.restriction.warning;
+      }
+    }
+
     // Download section
     const downloadHeading = document.getElementById("download-heading");
     const downloadDesc = document.querySelector(".download .section-description");
