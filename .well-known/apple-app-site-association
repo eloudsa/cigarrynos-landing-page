@@ -1,9 +1,25 @@
 {
   "applinks": {
     "apps": [],
-    "details": [{
-      "appID": "5KGH8H7G66.com.cigarrynos",
-      "paths": ["/share*"]
-    }]
+    "details": [
+      {
+        "appIDs": [
+          "5KGH8H7G66.com.cigarrynos"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "5KGH8H7G66.com.cigarrynos"
+    ]
   }
 }
