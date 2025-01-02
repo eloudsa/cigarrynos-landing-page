@@ -7,8 +7,7 @@
           "5KGH8H7G66.com.cigarrynos"
         ],
         "paths": [
-          "/share/*",       // Only match URLs under /share
-          "/share"          // Match /share specifically
+          "/share*"
         ]
       }
     ]
