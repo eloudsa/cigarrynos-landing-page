@@ -7,8 +7,8 @@
           "5KGH8H7G66.com.cigarrynos"
         ],
        "paths": [
-                 "/share",
-                 "/share/"
+                 "/share*",
+                 "/share/*"
                ]
       }
     ]
