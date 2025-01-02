@@ -3,9 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appIDs": ["5KGH8H7G66.com.cigarrynos"], // TeamID.BundleID
+        "appIDs": ["5KGH8H7G66.com.cigarrynos"],
         "paths": [
-          "/share"
+          "/share*"
         ]
       }
     ]
