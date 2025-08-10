@@ -10,38 +10,42 @@
     "rejectButton": "I am under 18"
   },
   "header": {
-    "tagline": "Your Ultimate Cigar Companion App",
-    "description": "Experience the finest selection of cigars with our comprehensive companion app. Track, rate, and discover your perfect smoke."
+    "tagline": "Your Personal Cigar Journey",
+    "description": "Discover, track, and share your cigar experiences with a vibrant community of enthusiasts."
   },
   "features": {
     "title": "Features",
-    "subtitle": "Everything you need to enhance your cigar experience in one elegant app",
+    "subtitle": "Everything you need for your cigar journey",
     "items": [
       {
-        "title": "Comprehensive Database",
-        "description": "Browse through thousands of cigars with detailed information about origin, blend, and characteristics."
-      },
-      {
         "title": "Personal Collections",
-        "description": "Organize and track your cigar collection with ease. Keep inventory and manage your humidor digitally."
+        "description": "Manage your humidor inventory, organize wishlists and favorites, and track your cigar journey."
       },
       {
-        "title": "Tasting Notes",
-        "description": "Record detailed tasting experiences, rate your cigars, and build your personal flavor profile."
+        "title": "Reviews & Ratings",
+        "description": "Share detailed tasting notes, rate cigars, and discover what the community loves."
+      },
+      {
+        "title": "Social Experience",
+        "description": "Follow enthusiasts, share collections, and connect with a global cigar community."
+      },
+      {
+        "title": "Expert Insights",
+        "description": "Access professional reviews, detailed cigar information, and curated recommendations."
       },
       {
         "title": "Offline Access",
-        "description": "Access your entire collection and notes anytime, anywhere - no internet connection required."
+        "description": "Access your entire collection and notes anytime, anywhere - no internet required."
       },
       {
-        "title": "Real-time Updates",
-        "description": "Stay current with the latest additions to our database and community reviews."
+        "title": "Discover & Search",
+        "description": "Browse a growing number of cigars with advanced filters by brand, strength, origin, and price."
       }
     ]
   },
   "discover": {
-    "title": "Discover the App",
-    "subtitle": "Take a visual tour of Cigarrynos' elegant interface"
+    "title": "Experience Cigarrynos",
+    "subtitle": "Explore the features that make your cigar journey unforgettable"
   },
   "download": {
     "title": "Get Started Today",

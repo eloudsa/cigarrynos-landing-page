@@ -10,38 +10,42 @@
     "rejectButton": "J'ai moins de 18 ans"
   },
   "header": {
-    "tagline": "Votre application compagnon ultime pour les cigares",
-    "description": "Découvrez une sélection exceptionnelle de cigares avec notre application complète. Suivez, évaluez et trouvez votre cigare parfait."
+    "tagline": "Votre parcours personnel du cigare",
+    "description": "Découvrez, suivez et partagez vos expériences de cigares avec une communauté passionnée."
   },
   "features": {
     "title": "Fonctionnalités",
-    "subtitle": "Tout ce dont vous avez besoin pour améliorer votre expérience du cigare dans une application élégante",
+    "subtitle": "Tout ce dont vous avez besoin pour votre parcours du cigare",
     "items": [
       {
-        "title": "Base de données complète",
-        "description": "Parcourez des milliers de cigares avec des informations détaillées sur l'origine, le mélange et les caractéristiques."
-      },
-      {
         "title": "Collections personnelles",
-        "description": "Organisez et suivez votre collection de cigares facilement. Gérez votre cave à cigares numériquement."
+        "description": "Gérez votre cave à cigares, organisez vos listes de souhaits et favoris, et suivez votre parcours."
       },
       {
-        "title": "Notes de dégustation",
-        "description": "Enregistrez des expériences de dégustation détaillées, évaluez vos cigares et créez votre profil de saveurs personnel."
+        "title": "Avis et évaluations",
+        "description": "Partagez vos notes de dégustation, évaluez les cigares et découvrez les favoris de la communauté."
+      },
+      {
+        "title": "Expérience sociale",
+        "description": "Suivez des passionnés, partagez vos collections et connectez-vous avec une communauté mondiale."
+      },
+      {
+        "title": "Conseils d'experts",
+        "description": "Accédez aux avis professionnels, informations détaillées et recommandations sélectionnées."
       },
       {
         "title": "Accès hors ligne",
-        "description": "Accédez à toute votre collection et vos notes à tout moment, n'importe où - sans connexion Internet requise."
+        "description": "Accédez à toute votre collection et vos notes à tout moment, sans connexion Internet."
       },
       {
-        "title": "Mises à jour en temps réel",
-        "description": "Restez à jour avec les derniers ajouts à notre base de données et les avis de la communauté."
+        "title": "Découvrir & Rechercher",
+        "description": "Parcourez un nombre croissant de cigares avec filtres avancés par marque, force, origine et prix."
       }
     ]
   },
   "discover": {
-    "title": "Découvrez l'application",
-    "subtitle": "Faites une visite visuelle de l'interface élégante de Cigarrynos"
+    "title": "Découvrez Cigarrynos",
+    "subtitle": "Explorez les fonctionnalités qui rendent votre parcours du cigare inoubliable"
   },
   "download": {
     "title": "Commencez aujourd'hui",

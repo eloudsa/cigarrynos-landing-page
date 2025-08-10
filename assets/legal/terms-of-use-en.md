@@ -1,5 +1,5 @@
 # Terms of Use
-**Last updated:** October 17, 2024
+**Last updated:** August 10, 2025
 
 Thank you for choosing Cigarrynos, a mobile application developed by Noratek SRL ("we", "us", "our"), a company registered in Belgium with VAT number BE0470043093. By accessing or using the Cigarrynos mobile application ("Service"), you agree to comply with these Terms of Use ("Terms"). Please read them carefully.
 
@@ -15,31 +15,103 @@ Noratek SRL reserves the right to modify these Terms at any time. Any changes wi
 ## 4. Eligibility
 To use our Service, you must be of legal smoking age in your country of residence. We may implement age verification mechanisms to comply with local laws regarding tobacco-related content. By accessing the Service, you represent that you are of legal age to use such products.
 
-## 5. Privacy and Data Collection
-Your privacy is important to us. We collect and process certain personal data, including but not limited to, information related to your cigars and preferences to provide and improve the Service. Data is collected through third-party services such as Firebase, Firestore, and Google Analytics. Please refer to our [Privacy Policy] for more details on how we handle your personal data.
+## 5. Subscription and Billing
 
-## 6. User-Generated Content
+### 5.1 Subscription Plans
+Cigarrynos offers the following subscription plans to unlock premium features:
+- **Monthly Subscription**: Billed monthly at the price displayed in your local currency
+- **Annual Subscription**: Billed annually at the price displayed in your local currency (includes discount compared to monthly billing)
+
+Prices are subject to change. Any price changes will be communicated in advance and will take effect at the start of the next billing period.
+
+### 5.2 Premium Features
+With a Cigarrynos Premium subscription, you get access to:
+- Add unlimited cigars to your collection
+- Edit and duplicate cigar entries
+- Write and manage cigar reviews
+- Access to Humidor collection
+- Manage your Favorites list
+- Create and organize Wishlists
+- Export your data as PDF
+- Priority customer support
+
+### 5.3 Free Trial
+New users may be eligible for a free trial period as displayed in the app. During the free trial:
+- You have full access to all premium features
+- You will not be charged until the trial period ends
+- The trial automatically converts to a paid subscription unless cancelled before the trial period expires
+- Any unused portion of a free trial period will be forfeited when you purchase a subscription
+
+### 5.4 Billing and Auto-Renewal
+- Payment will be charged to your Apple ID account (for iOS) or Google Play account (for Android) at confirmation of purchase
+- Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period
+- Your account will be charged for renewal within 24 hours prior to the end of the current period at the same price as the initial purchase
+- The renewal charge will be equal to the subscription price at the time of renewal
+
+### 5.5 Cancellation
+- You may cancel your subscription at any time through your device's account settings:
+  - **iOS**: Settings > [Your Name] > Subscriptions
+  - **Android**: Google Play Store > Menu > Subscriptions
+- Cancellation will take effect at the end of the current billing period
+- You will continue to have access to premium features until the end of the current billing period
+- No partial refunds will be given for unused portions of a subscription period
+
+### 5.6 Refunds
+- All sales are final and non-refundable except as required by law
+- Refund requests are handled according to the policies of:
+  - Apple App Store for iOS purchases
+  - Google Play Store for Android purchases
+- To request a refund, you must contact Apple or Google directly through their respective support channels
+
+### 5.7 Payment Processing
+- We do not directly process payments or store credit card information
+- All payment processing is handled securely by:
+  - Apple Inc. for iOS devices
+  - Google LLC for Android devices
+  - RevenueCat Inc. for subscription management services
+- By purchasing a subscription, you agree to the payment terms of the respective platform
+
+## 6. Privacy and Data Collection
+Your privacy is important to us. We collect and process certain personal data, including but not limited to, information related to your cigars and preferences to provide and improve the Service. Data is collected through third-party services such as Firebase, Firestore, and Google Analytics. Please refer to our [Privacy Policy] for more details on how we handle your personal data, including subscription and payment information.
+
+## 7. User-Generated Content
 Cigarrynos allows users to submit and share content such as cigar reviews, tasting notes, and photos. By submitting content, you grant Noratek SRL a non-exclusive, royalty-free, worldwide license to use, reproduce, and distribute this content in connection with the operation of the Service. You are solely responsible for the content you submit and agree that it complies with all applicable laws and regulations.
 
-## 7. Limitations of Liability
-To the fullest extent permitted by law, Noratek SRL is not liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Service, including but not limited to data loss, service interruptions, or reliance on content provided by other users.
+## 8. Limitations of Liability
+To the fullest extent permitted by law, Noratek SRL is not liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of the Service, including but not limited to data loss, service interruptions, subscription billing issues, or reliance on content provided by other users. Our total liability for any claim related to the Service shall not exceed the amount you paid for your subscription in the twelve (12) months preceding the claim.
 
-## 8. Termination
-Noratek SRL reserves the right to terminate or suspend access to the Service at its sole discretion, with or without notice, for conduct that violates these Terms, any applicable laws, or is harmful to other users or third parties. Upon termination, you will no longer have access to the Service, but certain provisions of these Terms, such as limitations of liability and user-generated content rights, will continue to apply.
+## 9. Termination
+Noratek SRL reserves the right to terminate or suspend access to the Service at its sole discretion, with or without notice, for conduct that violates these Terms, any applicable laws, or is harmful to other users or third parties. Upon termination:
+- You will no longer have access to the Service
+- Any active subscription will be cancelled without refund
+- We may delete your account and associated data
+- Certain provisions of these Terms, such as limitations of liability and user-generated content rights, will continue to apply
 
-## 9. Intellectual Property
+## 10. Intellectual Property
 The Cigarrynos name, logo, and all related trademarks are the property of Noratek SRL. All other content, including but not limited to text, images, and graphics, is either owned by us or licensed for use on the Service. You agree not to use any of our intellectual property without prior written permission.
 
-## 10. Governing Law
+## 11. Third-Party Services
+The Service may contain links to third-party websites or services that are not owned or controlled by Noratek SRL. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services. This includes, but is not limited to:
+- Apple App Store and Apple's payment services
+- Google Play Store and Google's payment services
+- RevenueCat subscription management platform
+
+## 12. Dispute Resolution
+Any disputes arising from these Terms or your use of the Service shall first be addressed through good-faith negotiations between the parties. If a resolution cannot be reached within 30 days, the dispute shall be submitted to binding arbitration in accordance with Belgian law.
+
+## 13. Governing Law
 These Terms shall be governed by and construed in accordance with the laws of Belgium, without regard to its conflict of law principles. Any legal disputes arising from these Terms will be resolved in the courts located in Belgium.
 
-## 11. Contact Us
-For any questions about these Terms, please contact us at:
+## 14. Severability
+If any provision of these Terms is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that these Terms will otherwise remain in full force and effect.
+
+## 15. Contact Us
+For any questions about these Terms, including subscription and billing inquiries, please contact us at:
 
 **Company:** Noratek SRL  
-**Email:** support@cigarrynos.com  
-**Website:** [https://www.cigarrynos.com](https://www.cigarrynos.com)
+**Email:** support@cigarrynos.app  
+**Website:** [https://www.cigarrynos.app](https://www.cigarrynos.app)
 
 ---
 
-© 2024 Noratek SRL. All rights reserved.
+© 2024-2025 Noratek SRL. All rights reserved.

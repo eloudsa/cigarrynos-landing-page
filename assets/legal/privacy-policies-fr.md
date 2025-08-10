@@ -1,95 +1,210 @@
-# Politique de Confidentialité pour Cigarrynos
+# Politique de confidentialité de Cigarrynos
 
-**Dernière mise à jour :** 17 octobre 2024
+**Dernière mise à jour :** 10 août 2025
 
-Noratek SRL ("nous", "notre" ou "nos"), une société enregistrée en Belgique sous le numéro de TVA BE0470043093, s'engage à protéger la confidentialité des utilisateurs de l'application Cigarrynos ("App"). Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre App.
+Noratek SRL (« nous », « notre » ou « nos »), société enregistrée en Belgique sous le numéro de TVA BE0470043093, s’engage à protéger la vie privée des utilisateurs de l’application Cigarrynos (« App »). La présente Politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre App.
 
-Veuillez lire attentivement cette politique de confidentialité. Si vous n'êtes pas d'accord avec les termes de cette politique, veuillez ne pas accéder à l'App.
+Veuillez lire attentivement cette politique de confidentialité. Si vous n’acceptez pas les termes de cette politique, veuillez ne pas accéder à l’App.
 
-## 1. Restriction d'Âge
+## 1. Restriction d’âge
 
-Cigarrynos est destiné aux utilisateurs âgés d'au moins 18 ans. Nous ne collectons pas sciemment d'informations personnelles auprès de personnes de moins de 18 ans. Si nous prenons conscience d'avoir collecté des données personnelles de quiconque de moins de 18 ans, nous prendrons des mesures pour supprimer ces informations.
+Cigarrynos est destinée aux utilisateurs âgés d’au moins 21 ans. Nous ne collectons pas sciemment d’informations personnelles auprès de personnes de moins de 21 ans. Si nous apprenons que nous avons collecté des données personnelles auprès de personnes de moins de 18 ans, nous prendrons des mesures pour supprimer ces informations.
 
-## 2. Informations que Nous Collectons
+## 2. Informations que nous collectons
 
 Nous collectons les informations que vous nous fournissez directement lorsque vous :
 
 - Créez un compte
-- Utilisez les fonctionnalités de l'App
+- Achetez ou gérez un abonnement
+- Utilisez les fonctionnalités de l’App
 - Communiquez directement avec nous
 
 Les types de données que nous pouvons collecter incluent :
 
+### Informations personnelles
 - Adresse e-mail
-- Mot de passe (crypté)
-- Contenu généré par l'utilisateur lié aux cigares
+- Mot de passe (chiffré)
+- Nom d’affichage (optionnel)
+- Photo de profil (optionnelle)
+- Contenu généré par l’utilisateur lié aux cigares
 - Photos que vous téléchargez
-- Données d'utilisation et analyses
+- Comptes de réseaux sociaux (optionnel)
 
-## 3. Comment Nous Utilisons Vos Informations
+### Informations d’abonnement et de paiement
+- Statut de l’abonnement (gratuit/premium)
+- Type d’abonnement (mensuel/annuel)
+- Historique des achats
+- Identifiants de transaction provenant des stores d’applications
+- **Remarque :** nous ne collectons ni ne stockons les numéros de carte bancaire, coordonnées bancaires ou autres informations de paiement. Tous les paiements sont traités par l’Apple App Store, le Google Play Store et notre partenaire de gestion des abonnements RevenueCat.
 
-Nous utilisons vos informations à diverses fins, notamment pour :
+### Données d’utilisation
+- Analyses d’utilisation de l’App
+- Statistiques d’utilisation des fonctionnalités
+- Informations sur l’appareil (type, version de l’OS)
+- Adresse IP (pour la conformité régionale)
+- Rapports de plantage et données de performance
+
+## 3. Utilisation de vos informations
+
+Nous utilisons vos informations pour :
 
 - Fournir, maintenir et améliorer notre App
 - Créer et gérer votre compte
+- Traiter et gérer votre abonnement
+- Vérifier l’état de l’abonnement et fournir les fonctionnalités premium
 - Répondre à vos commentaires, questions et demandes
-- Vous envoyer des avis techniques, mises à jour, alertes de sécurité et messages de support
-- Surveiller et analyser les tendances, l'utilisation et les activités en lien avec notre App
-- Détecter, enquêter et prévenir les transactions frauduleuses et autres activités illégales, et protéger les droits et la propriété de Noratek SRL et d'autrui
+- Vous envoyer des notifications techniques, mises à jour, alertes de sécurité et messages de support
+- Vous envoyer des communications liées à l’abonnement (rappels de renouvellement, confirmations de paiement)
+- Suivre et analyser les tendances, l’utilisation et l’activité liées à notre App
+- Détecter, enquêter et prévenir les fraudes et autres activités illégales, protéger les droits et biens de Noratek SRL et d’autres parties
+- Respecter les obligations légales et appliquer nos Conditions d’utilisation
 
-## 4. Stockage et Sécurité des Données
+## 4. Stockage et sécurité des données
 
-Nous utilisons Google Firebase pour le stockage des données et Google Cloud Storage pour le stockage des photos. Tous les serveurs sont situés en Europe. Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre le traitement non autorisé ou illégal, la perte accidentelle, la destruction ou les dommages.
+Nous utilisons Google Firebase pour le stockage des données et Google Cloud Storage pour le stockage des photos. Tous les serveurs sont situés en Europe.  
+Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre tout traitement non autorisé ou illicite, perte, destruction ou dommage accidentel.
 
-## 5. Partage de Vos Informations
+### Mesures de sécurité mises en place :
+- Chiffrement des mots de passe selon les standards de l’industrie
+- Connexions sécurisées HTTPS pour tous les transferts de données
+- Audits et mises à jour régulières de sécurité
+- Accès limité aux données personnelles selon le principe du besoin de savoir
+- Traitement sécurisé des paiements par des prestataires tiers certifiés
 
-Nous ne vendons pas vos informations personnelles à des tiers. Nous pouvons partager vos informations dans les situations suivantes :
+## 5. Partage de vos informations
 
-- Avec des prestataires de services qui effectuent des services pour nous (par exemple, Google Firebase, Google Cloud Storage, Google Message pour les notifications push)
-- Si requis par la loi ou en réponse à des demandes valides des autorités publiques
-- Pour protéger nos droits, notre vie privée, notre sécurité ou notre propriété, et/ou ceux de vous ou d'autres personnes
+Nous ne vendons pas vos données personnelles à des tiers. Nous pouvons partager vos informations dans les cas suivants :
 
-## 6. Vos Droits en Matière de Protection des Données (Conformité RGPD)
+### Fournisseurs de services
+Nous partageons des informations avec des prestataires tiers qui effectuent des services pour nous :
+- **Google Firebase** : stockage de données et authentification
+- **Google Cloud Storage** : stockage de photos et fichiers
+- **Firebase Cloud Messaging** : notifications push
+- **RevenueCat** : gestion et analyse des abonnements
+- **Apple Inc.** : distribution iOS et traitement des paiements
+- **Google LLC** : distribution Android et traitement des paiements
+- **Sentry** : suivi des erreurs et rapports de plantage
+
+### Obligations légales
+- Si la loi l’exige ou en réponse à une demande valide d’une autorité publique
+- Pour protéger nos droits, notre vie privée, notre sécurité ou nos biens, ainsi que ceux d’autrui
+- Pour appliquer nos Conditions d’utilisation ou enquêter sur des violations potentielles
+
+### Transferts d’activité
+- En cas de fusion, acquisition ou vente de tout ou partie de nos actifs, vos informations peuvent être transférées dans le cadre de cette transaction
+
+## 6. Vos droits en matière de protection des données (conformité RGPD)
 
 En vertu du RGPD, vous disposez des droits suivants :
 
-- **Le droit d'accès** – Vous pouvez demander des copies de vos données personnelles.
-- **Le droit de rectification** – Vous pouvez demander que nous corrigions toute information que vous estimez inexacte ou que nous complétions des informations que vous jugez incomplètes.
-- **Le droit à l'effacement** – Vous pouvez demander que nous effacions vos données personnelles, sous certaines conditions.
-- **Le droit à la limitation du traitement** – Vous pouvez demander que nous limitions le traitement de vos données personnelles, sous certaines conditions.
-- **Le droit d'opposition au traitement** – Vous pouvez vous opposer au traitement de vos données personnelles par nos soins, sous certaines conditions.
-- **Le droit à la portabilité des données** – Vous pouvez demander que nous transférions les données que nous avons collectées à une autre organisation, ou directement à vous, sous certaines conditions.
+- **Droit d’accès** : vous pouvez demander une copie de vos données personnelles
+- **Droit de rectification** : vous pouvez demander la correction ou la complétion de vos données
+- **Droit à l’effacement** : vous pouvez demander la suppression de vos données, sous certaines conditions
+- **Droit à la limitation du traitement** : vous pouvez demander la restriction du traitement, sous certaines conditions
+- **Droit d’opposition** : vous pouvez vous opposer au traitement de vos données, sous certaines conditions
+- **Droit à la portabilité des données** : vous pouvez demander le transfert de vos données vers un autre organisme ou directement à vous, sous certaines conditions
 
-Si vous faites une demande, nous avons un mois pour vous répondre. Pour exercer l'un de ces droits, veuillez nous contacter à privacy@cigarrynos.com.
+Si vous faites une demande, nous avons un mois pour y répondre. Pour exercer vos droits, contactez-nous à : privacy@cigarrynos.app
 
-## 7. Suppression du Compte
+## 7. Gestion des données d’abonnement
 
-Vous pouvez demander la suppression de votre compte à tout moment. Suite à cette demande, nous supprimerons votre compte utilisateur. Cependant, veuillez noter que les données contribuant à la base de données de Cigarrynos seront conservées.
+### Ce que nous stockons
+- Confirmations d’achat des stores d’applications
+- Statut et droits d’abonnement
+- Historique des transactions pour la comptabilité et les obligations fiscales
 
-## 8. Communication
+### Durée de conservation
+- Données des abonnements actifs : conservées tant que l’abonnement est actif
+- Données des abonnements annulés : conservées 7 ans pour conformité comptable/fiscale
+- Enregistrements de transactions : conservés 7 ans conformément à la loi belge
 
-Nous n'envoyons pas d'e-mails ou de notifications non sollicités aux utilisateurs. Toute communication que vous recevez de notre part sera strictement liée aux fonctionnalités et à l'utilisation de l'App.
+### Vos droits
+- Consulter l’état de votre abonnement dans les paramètres de l’App
+- Exporter l’historique d’abonnement dans le cadre du droit d’accès RGPD
+- Demander la suppression des données d’abonnement (sous réserve des obligations légales)
 
-## 9. Conduite de l'Utilisateur
+## 8. Suppression de compte
 
-Cigarrynos interdit la publication d'images ou de messages offensants. Si un utilisateur ne respecte pas cette règle, son compte peut être désactivé et supprimé. Dans les cas graves, nous nous réservons le droit de signaler une telle conduite aux autorités compétentes en Belgique.
+Vous pouvez demander la suppression de votre compte à tout moment. Suite à cette demande :
+- Votre compte sera programmé pour suppression après un délai de grâce de 48h
+- Vous pouvez annuler la demande pendant ce délai
+- Après suppression, vos données personnelles seront effacées
+- L’abonnement sera annulé (aucun remboursement pour les périodes non utilisées)
+- Les données contribuant à la base de données Cigarrynos (informations sur les cigares, etc.) seront anonymisées et conservées
+- Les enregistrements de transactions seront conservés conformément à la loi
 
-## 10. Analyses et Rapports de Plantage
+## 9. Communication
 
-Nous utilisons Firebase Analytics pour mesurer l'utilisation de l'App, ainsi que Firebase Crashlytics et Sentry pour signaler les plantages. Ces informations nous aident à améliorer les performances et l'expérience utilisateur de l'App.
+Nous envoyons les types de communications suivants :
 
-## 11. Modifications de Cette Politique de Confidentialité
+### E-mails transactionnels
+- Confirmation de création de compte
+- Demandes de réinitialisation de mot de passe
+- Confirmations d’achat d’abonnement
+- Rappels de renouvellement d’abonnement (désinscription possible)
+- Confirmations de suppression de compte
 
-Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page et en mettant à jour la date de "Dernière mise à jour".
+### Notifications push (optionnelles)
+- Mises à jour et nouvelles fonctionnalités
+- Activité communautaire (si activée)
+- Notifications de fin d’exportation de données
 
-## 12. Nous Contacter
+Nous n’envoyons pas d’e-mails marketing non sollicités. Vous pouvez gérer vos préférences de communication dans les paramètres de l’App.
 
-Pour toute question concernant cette Politique de Confidentialité, veuillez nous contacter à :
+## 10. Comportement des utilisateurs
+
+Cigarrynos interdit la publication d’images ou de messages offensants. En cas de non-respect, le compte pourra être désactivé et supprimé. Dans les cas graves, nous nous réservons le droit de signaler ces comportements aux autorités compétentes en Belgique.
+
+## 11. Analyses et rapports de plantage
+
+Nous utilisons :
+- **Firebase Analytics** : mesurer l’utilisation de l’App et l’adoption des fonctionnalités
+- **Firebase Crashlytics** : identifier et corriger les plantages
+- **Sentry** : suivi des erreurs et performance
+
+Ces informations sont collectées de manière anonymisée ou pseudonymisée et nous aident à améliorer les performances et l’expérience utilisateur.
+
+## 12. Cookies et technologies similaires
+
+L’App Cigarrynos n’utilise pas de cookies, mais utilise :
+- Stockage local pour la mise en cache des préférences
+- Identifiants d’appareil pour les analyses
+- Jetons de session pour l’authentification
+
+## 13. Liens vers des tiers
+
+L’App peut contenir des liens vers des sites ou services tiers. Nous ne sommes pas responsables de leurs pratiques de confidentialité. Nous vous encourageons à lire leurs politiques de confidentialité avant de fournir des données personnelles.
+
+## 14. Transferts internationaux de données
+
+Vos données peuvent être transférées et traitées dans des pays autres que votre pays de résidence. Ces pays peuvent avoir des lois de protection différentes. Nous mettons en place des garanties appropriées en conformité avec le RGPD.
+
+## 15. Confidentialité des enfants
+
+Notre App n’est pas destinée aux moins de 18 ans. Nous ne collectons pas sciemment leurs données. Si vous pensez que votre enfant nous a fourni des données, contactez-nous immédiatement.
+
+## 16. Modifications de la politique de confidentialité
+
+Nous pouvons mettre à jour cette politique :
+- En publiant la nouvelle version dans l’App
+- En mettant à jour la date de « Dernière mise à jour »
+- En envoyant une notification push en cas de changements importants
+
+Nous vous conseillons de consulter cette politique régulièrement.
+
+## 17. Délégué à la protection des données
+
+Pour toute question, contactez : privacy@cigarrynos.app
+
+## 18. Nous contacter
+
+Pour toute question :
 
 **Société :** Noratek SRL  
-**E-mail :** privacy@cigarrynos.com  
-**Site Web :** [https://www.cigarrynos.com](https://www.cigarrynos.com)
+**E-mail :** privacy@cigarrynos.app  
+**Site web :** [https://www.cigarrynos.app](https://www.cigarrynos.app)  
+**Adresse :** Belgique (TVA : BE0470043093)
 
 ---
 
-© 2024 Noratek SRL. Tous droits réservés.
+© 2024-2025 Noratek SRL. Tous droits réservés.
