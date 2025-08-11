@@ -59,22 +59,48 @@ document.addEventListener("DOMContentLoaded", async () => {
       headerDesc.textContent = t.header.description;
     }
 
-    // Features
+    // Key Features Section
+    const keyFeaturesHeading = document.getElementById("key-features-heading");
+    const keyFeaturesSubtitle = document.getElementById("key-features-subtitle");
+    if (keyFeaturesHeading && keyFeaturesSubtitle && t.keyFeatures) {
+      keyFeaturesHeading.textContent = t.keyFeatures.title;
+      keyFeaturesSubtitle.textContent = t.keyFeatures.subtitle;
+      
+      // Update each feature card
+      const featureCards = [
+        { id: 'free-access', key: 'freeAccess' },
+        { id: 'premium-access', key: 'premiumAccess' },
+        { id: 'expert-access', key: 'expertAccess' },
+        { id: 'social-features', key: 'socialFeatures' },
+        { id: 'privacy-features', key: 'privacyFeatures' }
+      ];
+      
+      featureCards.forEach(card => {
+        const title = document.getElementById(`${card.id}-title`);
+        const desc = document.getElementById(`${card.id}-desc`);
+        if (title && desc && t.keyFeatures[card.key]) {
+          title.textContent = t.keyFeatures[card.key].title;
+          desc.textContent = t.keyFeatures[card.key].description;
+        }
+      });
+    }
+
+    // Features Showcase
     const featuresHeading = document.getElementById("features-heading");
-    const featuresDesc = document.querySelector(".features .section-description");
-    const featuresList = document.getElementById("features-list");
+    const featuresDesc = document.querySelector(".features-showcase .section-description");
     if (featuresHeading && featuresDesc) {
       featuresHeading.textContent = t.features.title;
       featuresDesc.textContent = t.features.subtitle;
     }
-    if (featuresList) {
-      featuresList.innerHTML = t.features.items
-        .map(feature => `
-          <li>
-            <h3>${feature.title}</h3>
-            <p>${feature.description}</p>
-          </li>
-        `).join("");
+    
+    // Update individual feature content
+    for (let i = 1; i <= 5; i++) {
+      const featureTitle = document.getElementById(`feature-${i}-title`);
+      const featureDesc = document.getElementById(`feature-${i}-desc`);
+      if (featureTitle && featureDesc && t.features[`feature${i}`]) {
+        featureTitle.textContent = t.features[`feature${i}`].title;
+        featureDesc.textContent = t.features[`feature${i}`].description;
+      }
     }
 
     // Discover section

@@ -1,55 +1,73 @@
 {
   "meta": {
-    "title": "Cigarrynos",
-    "description": "Your Ultimate Cigar Companion App"
+    "title": "Cigarrynos – The Ultimate Cigar Companion",
+    "description": "The all-in-one app for cigar enthusiasts to discover, review, and share their passion"
   },
   "ageVerification": {
     "title": "Age Verification",
-    "message": "You must be 18 years or older to enter this site.",
-    "confirmButton": "I am 18 or older",
-    "rejectButton": "I am under 18"
+    "message": "You must be 21 years or older to enter this site.",
+    "confirmButton": "I am 21 or older",
+    "rejectButton": "I am under 21"
   },
   "header": {
-    "tagline": "Your Personal Cigar Journey",
-    "description": "Discover, track, and share your cigar experiences with a vibrant community of enthusiasts."
+    "tagline": "The Ultimate Cigar Companion",
+    "description": "Whether you're a casual smoker, a seasoned aficionado, or a certified expert, Cigarrynos offers the tools and community to elevate your cigar experience."
+  },
+  "keyFeatures": {
+    "title": "Key Features",
+    "subtitle": "Tools designed to help you discover, track, and share your cigar passion",
+    "freeAccess": {
+      "title": "Free Access",
+      "description": "Browse the entire cigar database with detailed specifications, search and filter by brand, country, strength, and price—no account required."
+    },
+    "premiumAccess": {
+      "title": "Premium Subscription",
+      "description": "Manage your personal humidor, wishlist, and favorites. Track collection value and export PDF reports."
+    },
+    "expertAccess": {
+      "title": "Expert Tools",
+      "description": "Help maintain database quality by approving new entries, merging duplicates, and contributing your expertise—invite only."
+    },
+    "socialFeatures": {
+      "title": "Social & Community",
+      "description": "Follow other enthusiasts, share reviews with detailed tasting notes, and exchange recommendations with the global community."
+    },
+    "privacyFeatures": {
+      "title": "Privacy-First Design",
+      "description": "Your data is yours. GDPR compliant with secure authentication, full data export options, and complete control over your information."
+    }
   },
   "features": {
-    "title": "Features",
-    "subtitle": "Everything you need for your cigar journey",
-    "items": [
-      {
-        "title": "Personal Collections",
-        "description": "Manage your humidor inventory, organize wishlists and favorites, and track your cigar journey."
-      },
-      {
-        "title": "Reviews & Ratings",
-        "description": "Share detailed tasting notes, rate cigars, and discover what the community loves."
-      },
-      {
-        "title": "Social Experience",
-        "description": "Follow enthusiasts, share collections, and connect with a global cigar community."
-      },
-      {
-        "title": "Expert Insights",
-        "description": "Access professional reviews, detailed cigar information, and curated recommendations."
-      },
-      {
-        "title": "Offline Access",
-        "description": "Access your entire collection and notes anytime, anywhere - no internet required."
-      },
-      {
-        "title": "Discover & Search",
-        "description": "Browse a growing number of cigars with advanced filters by brand, strength, origin, and price."
-      }
-    ]
+    "title": "Experience Cigarrynos",
+    "subtitle": "Discover the features that make your cigar journey unforgettable",
+    "feature1": {
+      "title": "Personal Dashboard",
+      "description": "Track your cigar journey with personalized insights including top-rated cigars, recent activities, and social connections. Get a complete overview of your collection value and tasting history at a glance."
+    },
+    "feature2": {
+      "title": "Collection Management",
+      "description": "Organize your personal humidor, wishlist, and favorites with detailed inventory tracking. Monitor your collection's estimated value and manage multiple lists to perfectly curate your cigar experience."
+    },
+    "feature3": {
+      "title": "Advanced Reviews & Aroma Radar",
+      "description": "Create detailed reviews with our unique Aroma Radar to capture flavor profiles across multiple categories. Share your tasting notes and discover community ratings to find your next perfect smoke."
+    },
+    "feature4": {
+      "title": "Social Community",
+      "description": "Connect with fellow enthusiasts, follow other collectors, and share your cigar journey. Exchange recommendations, comment on reviews, and build your network within the global cigar community."
+    },
+    "feature5": {
+      "title": "Personalized Experience",
+      "description": "Customize your app with multiple themes, language support, and local currency settings. Enjoy a tailored experience that adapts to your preferences with full offline access to your data."
+    }
   },
   "discover": {
     "title": "Experience Cigarrynos",
     "subtitle": "Explore the features that make your cigar journey unforgettable"
   },
   "download": {
-    "title": "Get Started Today",
-    "subtitle": "Available on iOS and Android platforms"
+    "title": "Download Cigarrynos Today",
+    "subtitle": "Explore the world of cigars, read expert reviews, and unlock powerful collection tools with a premium subscription. Available on iOS and Android. Internet connection required."
   },
   "footer": {
     "createdBy": "Made by",
@@ -64,7 +82,7 @@
     "importantInfo": {
       "title": "Important Information",
       "items": [
-        "You must be at least 18 years old to access this website and use the Cigarrynos application.",
+        "You must be at least 21 years old to access this website and use the Cigarrynos application.",
         "By accessing this website or using the application, you confirm that you are of legal age in your jurisdiction.",
         "We maintain strict age verification procedures to ensure compliance with applicable laws and regulations."
       ]

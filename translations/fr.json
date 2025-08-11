@@ -1,55 +1,73 @@
 {
   "meta": {
-    "title": "Cigarrynos",
-    "description": "Votre application compagnon ultime pour les cigares"
+    "title": "Cigarrynos – Le compagnon ultime du cigare",
+    "description": "L'application tout-en-un pour les passionnés de cigares qui souhaitent découvrir, évaluer et partager leur passion"
   },
   "ageVerification": {
     "title": "Vérification de l'âge",
-    "message": "Vous devez avoir 18 ans ou plus pour accéder à ce site.",
-    "confirmButton": "J'ai 18 ans ou plus",
-    "rejectButton": "J'ai moins de 18 ans"
+    "message": "Vous devez avoir 21 ans ou plus pour accéder à ce site.",
+    "confirmButton": "J'ai 21 ans ou plus",
+    "rejectButton": "J'ai moins de 21 ans"
   },
   "header": {
-    "tagline": "Votre parcours personnel du cigare",
-    "description": "Découvrez, suivez et partagez vos expériences de cigares avec une communauté passionnée."
+    "tagline": "Le compagnon ultime du cigare",
+    "description": "Que vous soyez un fumeur occasionnel, un aficionado expérimenté ou un expert certifié, Cigarrynos vous offre les outils et la communauté pour enrichir votre expérience du cigare."
+  },
+  "keyFeatures": {
+    "title": "Fonctionnalités Clés",
+    "subtitle": "Des outils conçus pour vous aider à découvrir, suivre et partager votre passion du cigare",
+    "freeAccess": {
+      "title": "Accès Gratuit",
+      "description": "Parcourez toute la base de données de cigares avec spécifications détaillées, recherchez et filtrez par marque, pays, force et prix—aucun compte requis."
+    },
+    "premiumAccess": {
+      "title": "Abonnement Premium",
+      "description": "Gérez votre humidor personnel, liste de souhaits et favoris. Suivez la valeur de votre collection et exportez des rapports PDF."
+    },
+    "expertAccess": {
+      "title": "Outils Expert",
+      "description": "Aidez à maintenir la qualité de la base de données en approuvant de nouvelles entrées, fusionnant les doublons et contribuant votre expertise—sur invitation seulement."
+    },
+    "socialFeatures": {
+      "title": "Social & Communauté",
+      "description": "Suivez d'autres passionnés, partagez des avis avec notes de dégustation détaillées et échangez des recommandations avec la communauté mondiale."
+    },
+    "privacyFeatures": {
+      "title": "Conception Axée sur la Confidentialité",
+      "description": "Vos données vous appartiennent. Conforme au RGPD avec authentification sécurisée, options d'export complètes et contrôle total sur vos informations."
+    }
   },
   "features": {
-    "title": "Fonctionnalités",
-    "subtitle": "Tout ce dont vous avez besoin pour votre parcours du cigare",
-    "items": [
-      {
-        "title": "Collections personnelles",
-        "description": "Gérez votre cave à cigares, organisez vos listes de souhaits et favoris, et suivez votre parcours."
-      },
-      {
-        "title": "Avis et évaluations",
-        "description": "Partagez vos notes de dégustation, évaluez les cigares et découvrez les favoris de la communauté."
-      },
-      {
-        "title": "Expérience sociale",
-        "description": "Suivez des passionnés, partagez vos collections et connectez-vous avec une communauté mondiale."
-      },
-      {
-        "title": "Conseils d'experts",
-        "description": "Accédez aux avis professionnels, informations détaillées et recommandations sélectionnées."
-      },
-      {
-        "title": "Accès hors ligne",
-        "description": "Accédez à toute votre collection et vos notes à tout moment, sans connexion Internet."
-      },
-      {
-        "title": "Découvrir & Rechercher",
-        "description": "Parcourez un nombre croissant de cigares avec filtres avancés par marque, force, origine et prix."
-      }
-    ]
+    "title": "Découvrez Cigarrynos",
+    "subtitle": "Explorez les fonctionnalités qui rendent votre parcours du cigare inoubliable",
+    "feature1": {
+      "title": "Tableau de bord personnel",
+      "description": "Suivez votre parcours avec des insights personnalisés incluant vos cigares préférés, activités récentes et connexions sociales. Obtenez un aperçu complet de la valeur de votre collection et de votre historique de dégustation."
+    },
+    "feature2": {
+      "title": "Gestion de collection",
+      "description": "Organisez votre humidor personnel, liste de souhaits et favoris avec un suivi détaillé de l'inventaire. Surveillez la valeur estimée de votre collection et gérez plusieurs listes pour parfaire votre expérience."
+    },
+    "feature3": {
+      "title": "Avis avancés & Radar d'arômes",
+      "description": "Créez des avis détaillés avec notre Radar d'arômes unique pour capturer les profils de saveurs. Partagez vos notes de dégustation et découvrez les évaluations de la communauté pour trouver votre prochain cigare parfait."
+    },
+    "feature4": {
+      "title": "Communauté sociale",
+      "description": "Connectez-vous avec d'autres passionnés, suivez d'autres collectionneurs et partagez votre parcours. Échangez des recommandations, commentez les avis et construisez votre réseau au sein de la communauté mondiale."
+    },
+    "feature5": {
+      "title": "Expérience personnalisée",
+      "description": "Personnalisez votre application avec plusieurs thèmes, support multilingue et paramètres de devise locale. Profitez d'une expérience adaptée à vos préférences avec un accès hors ligne complet à vos données."
+    }
   },
   "discover": {
     "title": "Découvrez Cigarrynos",
     "subtitle": "Explorez les fonctionnalités qui rendent votre parcours du cigare inoubliable"
   },
   "download": {
-    "title": "Commencez aujourd'hui",
-    "subtitle": "Disponible sur iOS et Android"
+    "title": "Téléchargez Cigarrynos dès aujourd'hui",
+    "subtitle": "Explorez l'univers des cigares, lisez des avis d'experts et débloquez de puissants outils de collection avec l'abonnement Premium. Disponible sur iOS et Android. Connexion Internet requise."
   },
   "footer": {
     "createdBy": "Créé par",
@@ -64,7 +82,7 @@
     "importantInfo": {
       "title": "Informations Importantes",
       "items": [
-        "Vous devez avoir au moins 18 ans pour accéder à ce site web et utiliser l'application Cigarrynos.",
+        "Vous devez avoir au moins 21 ans pour accéder à ce site web et utiliser l'application Cigarrynos.",
         "En accédant à ce site web ou en utilisant l'application, vous confirmez que vous avez l'âge légal dans votre juridiction.",
         "Nous maintenons des procédures strictes de vérification de l'âge pour assurer la conformité aux lois et réglementations applicables."
       ]

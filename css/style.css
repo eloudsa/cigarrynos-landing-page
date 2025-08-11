@@ -98,8 +98,70 @@ header {
   color: #999;
 }
 
-/* Features Section */
-.features {
+/* Key Features Overview Section */
+.key-features {
+  padding: 4rem 0;
+  background-color: var(--background-off);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature-card {
+  background: var(--background-light);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(107, 59, 42, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card h3 {
+  font-family: 'Source Sans 3', sans-serif, system-ui;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0 0 1rem;
+}
+
+.feature-card p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* Responsive for feature cards */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .feature-card {
+    padding: 1.5rem;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.3rem;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+  }
+}
+
+/* Features Showcase Section */
+.features-showcase {
   padding: 4rem 0;
   background-color: var(--background-light);
 }
@@ -126,53 +188,106 @@ header {
   margin: 0 auto 3rem;
 }
 
-.features ul {
+/* Feature Rows with Alternating Layout */
+.feature-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 0;
-  list-style: none;
+  grid-template-columns: 350px 1fr;
+  gap: 4rem;
+  align-items: center;
+  margin-bottom: 5rem;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-row:last-child {
+  margin-bottom: 0;
+}
+
+.feature-row-reverse {
+  grid-template-columns: 1fr 350px;
+}
+
+.feature-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.feature-image:hover img {
+  transform: scale(1.03);
+}
+
+.feature-content {
+  padding: 0 1rem;
+}
+
+.feature-content h3 {
+  font-family: var(--font-primary), system-ui, serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 0 0 1.5rem;
+  font-weight: 700;
+}
+
+.feature-content p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--text-color);
   margin: 0;
 }
 
-.features li {
-  background: var(--background-light);
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(76, 36, 29, 0.1);
+/* Responsive Design for Feature Rows */
+@media (max-width: 968px) {
+  .feature-row {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .feature-row-reverse {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-content {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .feature-content h3 {
+    font-size: 1.75rem;
+  }
+  
+  .feature-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
 
-.features li h3 {
-  color: var(--primary-color);
-  margin: 0 0 1rem;
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-/* Screenshots Section */
-.screenshots {
-  background-color: var(--background-off);
-  padding: 4rem 0;
-}
-
-.screenshot-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.screenshot-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.screenshot-grid img:hover {
-  transform: translateY(-5px);
+@media (max-width: 480px) {
+  .feature-image {
+    max-width: 280px;
+  }
+  
+  .feature-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .feature-content p {
+    font-size: 1rem;
+  }
 }
 
 /* Download Section */
