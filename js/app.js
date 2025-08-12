@@ -36,6 +36,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
+  // Update header content (common to all pages)
+  function updateHeaderContent(lang) {
+    const t = translations[lang];
+    if (!t) return; // Exit if translations aren't loaded
+
+    // Header
+    const tagline = document.getElementById("tagline");
+    const headerDesc = document.getElementById("header-description") || document.querySelector(".header-description");
+    if (tagline && headerDesc) {
+      tagline.textContent = t.header.tagline;
+      headerDesc.textContent = t.header.description;
+    }
+  }
+
   // Update main page content
   function updateMainPageContent(lang) {
     const t = translations[lang];
@@ -51,13 +65,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       btnNo.textContent = t.ageVerification.rejectButton;
     }
 
-    // Header
-    const tagline = document.getElementById("tagline");
-    const headerDesc = document.querySelector(".header-description");
-    if (tagline && headerDesc) {
-      tagline.textContent = t.header.tagline;
-      headerDesc.textContent = t.header.description;
-    }
+    // Update header
+    updateHeaderContent(lang);
 
     // Key Features Section
     const keyFeaturesHeading = document.getElementById("key-features-heading");
@@ -196,6 +205,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Update content based on page type
     if (contentArea) {
       await loadLegalContent(lang);
+      updateHeaderContent(lang); // Update header on legal pages
     } else {
       updateMainPageContent(lang);
     }
@@ -230,6 +240,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadTranslations(currentLanguage);
   if (contentArea) {
     await loadLegalContent(currentLanguage);
+    updateHeaderContent(currentLanguage); // Update header on legal pages
   } else {
     updateMainPageContent(currentLanguage);
   }
