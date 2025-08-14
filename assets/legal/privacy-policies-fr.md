@@ -61,7 +61,7 @@ Nous utilisons vos informations pour :
 
 ## 4. Stockage et sécurité des données
 
-Nous utilisons Google Firebase pour le stockage des données et Google Cloud Storage pour le stockage des photos. Tous les serveurs sont situés en Europe.  
+Nous utilisons Google Firebase pour le stockage des données et Google Cloud Storage pour le stockage des photos. Tous les serveurs sont situés en Europe.
 Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre tout traitement non autorisé ou illicite, perte, destruction ou dommage accidentel.
 
 ### Mesures de sécurité mises en place :
@@ -200,9 +200,9 @@ Pour toute question, contactez : privacy@cigarrynos.app
 
 Pour toute question :
 
-**Société :** Noratek SRL  
-**E-mail :** privacy@cigarrynos.app  
-**Site web :** [https://www.cigarrynos.app](https://www.cigarrynos.app)  
+**Société :** Noratek SRL
+**E-mail :** privacy@cigarrynos.app
+**Site web :** [https://www.cigarrynos.com](https://www.cigarrynos.com)
 **Adresse :** Belgique (TVA : BE0470043093)
 
 ---

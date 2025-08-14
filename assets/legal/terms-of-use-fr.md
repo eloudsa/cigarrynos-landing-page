@@ -129,8 +129,8 @@ Si une disposition des présentes Conditions est jugée inapplicable ou invalide
 
 Pour toute question concernant ces Conditions, y compris les demandes relatives aux abonnements et à la facturation, contactez-nous à :
 
-**Société** : Noratek SRL  
-**E-mail** : support@cigarrynos.app  
-**Site web** : https://www.cigarrynos.app
+**Société** : Noratek SRL
+**E-mail** : support@cigarrynos.app
+**Site web** : https://www.cigarrynos.com
 
 © 2024-2025 Noratek SRL. Tous droits réservés.

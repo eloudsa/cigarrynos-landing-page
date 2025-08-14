@@ -216,9 +216,9 @@ privacy@cigarrynos.app
 
 For any questions about this Privacy Policy, please contact us at:
 
-**Company:** Noratek SRL  
-**Email:** privacy@cigarrynos.app  
-**Website:** [https://www.cigarrynos.app](https://www.cigarrynos.app)  
+**Company:** Noratek SRL
+**Email:** privacy@cigarrynos.app
+**Website:** [https://www.cigarrynos.com](https://www.cigarrynos.com)
 **Address:** Belgium (VAT: BE0470043093)
 
 ---

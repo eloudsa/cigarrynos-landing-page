@@ -129,8 +129,8 @@ If any provision of these Terms is found to be unenforceable or invalid, that pr
 
 For any questions about these Terms, including subscription and billing inquiries, please contact us at:
 
-**Company**: Noratek SRL  
-**Email**: support@cigarrynos.app  
-**Website**: https://www.cigarrynos.app
+**Company**: Noratek SRL
+**Email**: support@cigarrynos.app
+**Website**: https://www.cigarrynos.com
 
 © 2024-2025 Noratek SRL. All rights reserved.

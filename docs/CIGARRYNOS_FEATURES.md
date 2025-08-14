@@ -364,7 +364,7 @@ Based on code structure and placeholders:
 - **Support Email**: privacy@cigarrynos.app
 - **In-App Support**: Settings → Privacy Policy → Message icon
 - **Developer**: Noratek SRL
-- **App Website**: cigarrynos.app
+- **App Website**: cigarrynos.com
 
 ---
 
