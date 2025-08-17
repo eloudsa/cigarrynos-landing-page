@@ -163,9 +163,28 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Download section
     const downloadHeading = document.getElementById("download-heading");
     const downloadDesc = document.querySelector(".download .section-description");
+    const webappButtonPrefix = document.getElementById("webapp-button-prefix");
+    const webappButtonText = document.getElementById("webapp-button-text");
     if (downloadHeading && downloadDesc) {
       downloadHeading.textContent = t.download.title;
       downloadDesc.textContent = t.download.subtitle;
+    }
+    if (webappButtonPrefix && webappButtonText) {
+      webappButtonPrefix.textContent = t.download.webappButtonPrefix;
+      webappButtonText.textContent = t.download.webappButtonText;
+    }
+
+    // Update language-specific images
+    const langImages = document.querySelectorAll('[data-lang-img]');
+    langImages.forEach(img => {
+      const imageNum = img.getAttribute('data-lang-img');
+      img.src = `assets/images/${imageNum}-${lang}.png`;
+    });
+
+    // Update Play Store button image based on language
+    const playStoreImg = document.querySelector('[data-lang-playstore]');
+    if (playStoreImg) {
+      playStoreImg.src = `assets/icons/playstore-${lang}.png`;
     }
   }
 

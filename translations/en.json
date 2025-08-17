@@ -67,7 +67,9 @@
   },
   "download": {
     "title": "Download Cigarrynos Today",
-    "subtitle": "Explore the world of cigars, read expert reviews, and unlock powerful collection tools with a premium subscription. Available on iOS and Android. Internet connection required."
+    "subtitle": "Explore the world of cigars, read expert reviews, and unlock powerful collection tools with a premium subscription. Available on Android and as a Web App for iOS. Internet connection required.",
+    "webappButtonPrefix": "OPEN IT ON",
+    "webappButtonText": "Web App"
   },
   "footer": {
     "createdBy": "Made by",

@@ -67,7 +67,9 @@
   },
   "download": {
     "title": "Téléchargez Cigarrynos dès aujourd'hui",
-    "subtitle": "Explorez l'univers des cigares, lisez des avis d'experts et débloquez de puissants outils de collection avec l'abonnement Premium. Disponible sur iOS et Android. Connexion Internet requise."
+    "subtitle": "Explorez l'univers des cigares, lisez des avis d'experts et débloquez de puissants outils de collection avec l'abonnement Premium. Disponible sur Android et en tant qu'application Web pour iOS. Connexion Internet requise.",
+    "webappButtonPrefix": "OUVRIR SUR",
+    "webappButtonText": "Web App"
   },
   "footer": {
     "createdBy": "Créé par",
