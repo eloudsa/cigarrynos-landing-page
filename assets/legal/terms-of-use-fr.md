@@ -14,7 +14,7 @@ En accédant à notre Service ou en l’utilisant, vous acceptez d’être lié 
 
 ## 2. Conscience des risques pour la santé
 
-En utilisant ce Service, vous reconnaissez que la consommation de tabac et d’alcool peut être nocive pour votre santé et celle d’autrui. Cigarrynos est une plateforme d’échange pour passionnés de cigares, mais nous n’encourageons ni ne promouvons la consommation de tabac ou d’alcool. Vous comprenez et acceptez les risques associés au tabagisme (cancer du poumon, maladies cardiaques, troubles respiratoires). La consommation excessive d’alcool comporte également de graves risques. Nous encourageons un comportement responsable et conseillons de consulter un professionnel de santé pour toute information sur ces risques.
+En utilisant ce Service, vous reconnaissez que la consommation de tabac et d’alcool peut être nocive pour votre santé et celle d’autrui. Cigarrynos est une plateforme d’échange pour passionnés de cigares, mais nous n’encourageons ni ne promouvons la consommation de tabac ou d’alcool. Vous comprenez et acceptez les risques associés au tabagisme (cancer du poumon, maladies cardiaques, troubles respiratoires). La consommation excessive d’alcool comporte également de graves risques. Nous encourageons un comportement responsable. Veuillez consulter un professionnel de santé pour plus d’informations.
 
 ---
 
@@ -67,23 +67,27 @@ L’accès expert est accordé à notre discrétion et peut être retiré à tou
 
 ### 5.5 Facturation et renouvellement automatique
 
-Le paiement est débité via votre compte Google Play (Android) ou via RevenueCat Web Billing (App Web) lors de la confirmation d’achat. Les abonnements se renouvellent automatiquement sauf si le renouvellement automatique est désactivé au moins 24h avant la fin de la période en cours.
+Le paiement est débité via votre compte Google Play (Android) ou via notre système de paiement sécurisé (App Web) lors de la confirmation d’achat. Les abonnements se renouvellent automatiquement sauf si le renouvellement automatique est désactivé au moins 24h avant la fin de la période en cours.
 
 ### 5.6 Annulation
 
-Vous pouvez annuler à tout moment via les paramètres Google Play ou le portail web (RevenueCat). L’annulation prend effet à la fin de la période en cours. Vous gardez l’accès Premium jusqu’à cette date. Aucun remboursement partiel ne sera accordé.
+Vous pouvez annuler à tout moment :  
+- **Android** : via Google Play > Menu > Abonnements  
+- **Web App** : en contactant **support@cigarrynos.app**  
+
+L’annulation prend effet à la fin de la période en cours. Vous gardez l’accès Premium jusqu’à cette date. Aucun remboursement partiel ne sera accordé.
 
 ### 5.7 Remboursements
 
 Toutes les ventes sont finales, sauf obligation légale. Les remboursements sont gérés par :  
 - Google Play pour les achats Android  
-- RevenueCat Web Billing pour les achats Web  
+- Cigarrynos Support (**support@cigarrynos.app**) pour les achats Web  
 
 ### 5.8 Traitement des paiements
 
 Nous ne traitons pas directement les paiements et ne stockons pas vos coordonnées bancaires. Le traitement est assuré par :  
 - Google LLC pour Android  
-- RevenueCat Inc. pour la gestion des abonnements (Android & Web)  
+- Notre processeur de paiement web pour l’App Web  
 
 ---
 

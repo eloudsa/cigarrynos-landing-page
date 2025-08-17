@@ -67,25 +67,27 @@ Expert access is granted at our discretion and may be revoked at any time.
 
 ### 5.5 Billing and Auto-Renewal
 
-Payment will be charged to your Google Play account (for Android) or securely processed via RevenueCat Web Billing (for Web App) at confirmation of purchase. Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period. Your account will be charged for renewal within 24 hours prior to the end of the current period at the same price as the initial purchase.
+Payment will be charged to your Google Play account (for Android) or processed through our secure web payment system (for Web App) at confirmation of purchase. Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current billing period. Your account will be charged for renewal within 24 hours prior to the end of the current period at the same price as the initial purchase.
 
 ### 5.6 Cancellation
 
-You may cancel your subscription at any time through your Google Play account settings or through the web subscription portal (RevenueCat). Cancellation will take effect at the end of the current billing period. You will continue to have access to premium features until the end of the current billing period. No partial refunds will be given for unused portions of a subscription period.
+You may cancel your subscription at any time:  
+- **Android**: Google Play Store > Menu > Subscriptions  
+- **Web App**: Contact **support@cigarrynos.app**  
+
+Cancellation will take effect at the end of the current billing period. You will continue to have access to premium features until the end of the current billing period. No partial refunds will be given for unused portions of a subscription period.
 
 ### 5.7 Refunds
 
-All sales are final and non-refundable except as required by law. Refund requests are handled according to the policies of:
-- Google Play Store for Android purchases
-- RevenueCat Web Billing for Web App purchases
-
-To request a refund, you must follow the process provided by the respective platform.
+All sales are final and non-refundable except as required by law. Refund requests are handled according to:  
+- Google Play Store policies for Android purchases  
+- Cigarrynos Support (**support@cigarrynos.app**) for Web App purchases  
 
 ### 5.8 Payment Processing
 
-We do not directly process payments or store credit card information. All payment processing is handled securely by:
-- Google LLC for Android devices
-- RevenueCat Inc. for subscription management services (Web App and Android integration)
+We do not directly process payments or store credit card information. All payment processing is handled securely by:  
+- Google LLC for Android devices  
+- Our web payment processor for Web App purchases  
 
 By purchasing a subscription, you agree to the payment terms of the respective platform.
 
